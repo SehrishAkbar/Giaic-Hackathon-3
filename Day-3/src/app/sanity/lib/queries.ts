@@ -9,8 +9,4 @@ export const getProductsQuery = `*[_type == "product"]{
   description,
   price,
   quantity
-          "categoryName": category->name,
-          "slug": slug.current,
-          "imageUrl": image.asset->url,
-          rating
-           }`;
+          
